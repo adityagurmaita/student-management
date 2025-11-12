@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Student Management System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Smart Student Management System</h1>
+  </header>
+
+  <main>
+    <section class="form-section">
+      <h2>Add New Student</h2>
+      <form id="studentForm">
+        <input type="text" id="name" placeholder="Enter Name" required>
+        <input type="text" id="roll" placeholder="Enter Roll No" required>
+        <input type="number" id="marks" placeholder="Enter Marks" required>
+        <input type="number" id="attendance" placeholder="Enter Attendance (%)" required>
+        <button type="submit">Add Student</button>
+      </form>
+    </section>
+
+    <section class="table-section">
+      <h2>Student Records</h2>
+      <input type="text" id="search" placeholder="Search by Name...">
+      <table id="studentTable">
+        <tr>
+          <th>S.No</th>
+          <th>Name</th>
+          <th>Roll No</th>
+          <th>Marks</th>
+          <th>Attendance</th>
+          <th>Action</th>
+        </tr>
+      </table>
+      <button id="clearAll">Clear All Records</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>Created by Aditya Kumar Gurmaita</p>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

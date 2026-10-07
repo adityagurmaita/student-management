@@ -1,6 +1,6 @@
 # Student Management
 
-![Project](https://img.shields.io/badge/student_management-347ac1) ![Status](https://img.shields.io/badge/status-demo-blue)
+![Project](https://img.shields.io/badge/project-student_management-347ac1) ![Status](https://img.shields.io/badge/status-demo-blue)
 
 **HTML · CSS · localStorage**
 
